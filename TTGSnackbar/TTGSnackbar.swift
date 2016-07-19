@@ -580,7 +580,7 @@ private extension TTGSnackbar {
 
         // Add constraints
         let hConstraints: [NSLayoutConstraint] = NSLayoutConstraint.constraintsWithVisualFormat(
-        "H:|-2-[iconImageView]-14-[messageLabel]-2-[seperateView(0.5)]-2-[actionButton]-0-[secondActionButton]-4-|",
+        "H:|-2-[iconImageView]-14-[messageLabel]-2-[seperateView(0.5)]-2-[actionButton]-0-[secondActionButton]-36-|",
                 options: NSLayoutFormatOptions(rawValue: 0),
                 metrics: nil,
                 views: ["iconImageView": iconImageView, "messageLabel": messageLabel, "seperateView": seperateView, "actionButton": actionButton, "secondActionButton": secondActionButton])
